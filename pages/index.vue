@@ -1,15 +1,17 @@
 <script lang="ts" setup>
 import padJson from '../data/padData.json'
+import { ref } from 'vue'
 
 const filters = ref({
-  ternary: false,
-  chabada: false,
-  a: false,
-  b: false,
-  c: false,
-  d: false,
-  e: false,
-  g: false,
+  'hh-triangle': false,
+  'hh-ride': false,
+  'hh-shaker': false,
+  'hh-bell': false,
+  'hh-tambourine': false,
+  'hh-accent-counter': false,
+  'ternary': false,
+  'chabada': false,
+  'tempo-x-2': false,
 })
 
 const filterClass = active => `
@@ -27,13 +29,17 @@ const touchClass = (color, tags) => {
 
   Object.entries(filters.value).forEach(([key, val]) => {
     if (val && tags.indexOf(key) === -1) {
-      console.log(key, val);
       active = false
     }
   })
   if (!active) classes.push('opacity-30')
   return classes
 }
+
+// Collect unique tag values
+const uniqueTags = [...new Set(padJson.flatMap(obj => obj.tags.split(' ')))];
+
+console.log(uniqueTags);
 
 </script>
 
