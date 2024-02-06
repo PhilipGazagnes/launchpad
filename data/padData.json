@@ -1,0 +1,850 @@
+[
+   {
+      "name":"SimpleBeat1",
+      "var":"a",
+      "x":1,
+      "y":1,
+      "color":"red",
+      "tags":"a b c"
+   },
+   {
+      "name":"SimpleBeat2",
+      "var":"a",
+      "x":2,
+      "y":1,
+      "color":"red",
+      "tags":"c a"
+   },
+   {
+      "name":"Funk1",
+      "var":"a",
+      "x":3,
+      "y":1,
+      "color":"yellow",
+      "tags":"a "
+   },
+   {
+      "name":"Funk2",
+      "var":"a",
+      "x":4,
+      "y":1,
+      "color":"yellow",
+      "tags":"b "
+   },
+   {
+      "name":"SideStick1",
+      "var":"a",
+      "x":5,
+      "y":1,
+      "color":"blue",
+      "tags":"c "
+   },
+   {
+      "name":"SideStick2",
+      "var":"a",
+      "x":6,
+      "y":1,
+      "color":"blue",
+      "tags":"d "
+   },
+   {
+      "name":"Samba1",
+      "var":"a",
+      "x":7,
+      "y":1,
+      "color":"red",
+      "tags":"a "
+   },
+   {
+      "name":"Samba2",
+      "var":"a",
+      "x":8,
+      "y":1,
+      "color":"red",
+      "tags":"b "
+   },
+   {
+      "name":"SimpleBeat1",
+      "var":"b",
+      "x":1,
+      "y":1,
+      "color":"red",
+      "tags":"a b d"
+   },
+   {
+      "name":"SimpleBeat2",
+      "var":"b",
+      "x":2,
+      "y":1,
+      "color":"red",
+      "tags":"c b d"
+   },
+   {
+      "name":"Funk1",
+      "var":"b",
+      "x":3,
+      "y":1,
+      "color":"yellow",
+      "tags":"a "
+   },
+   {
+      "name":"Funk2",
+      "var":"b",
+      "x":4,
+      "y":1,
+      "color":"yellow",
+      "tags":"b "
+   },
+   {
+      "name":"SideStick1",
+      "var":"b",
+      "x":5,
+      "y":1,
+      "color":"blue",
+      "tags":"c "
+   },
+   {
+      "name":"SideStick2",
+      "var":"b",
+      "x":6,
+      "y":1,
+      "color":"blue",
+      "tags":"d "
+   },
+   {
+      "name":"Samba1",
+      "var":"b",
+      "x":7,
+      "y":1,
+      "color":"red",
+      "tags":"a "
+   },
+   {
+      "name":"Samba2",
+      "var":"b",
+      "x":8,
+      "y":1,
+      "color":"red",
+      "tags":"b "
+   },
+   {
+      "name":"SimpleBeat3",
+      "var":"a",
+      "x":1,
+      "y":2,
+      "color":"red",
+      "tags":"a b c"
+   },
+   {
+      "name":"SimpleBeat4",
+      "var":"a",
+      "x":2,
+      "y":2,
+      "color":"red",
+      "tags":"c a"
+   },
+   {
+      "name":"Funk3",
+      "var":"a",
+      "x":3,
+      "y":2,
+      "color":"yellow",
+      "tags":"c "
+   },
+   {
+      "name":"Funk4",
+      "var":"a",
+      "x":4,
+      "y":2,
+      "color":"yellow",
+      "tags":"d "
+   },
+   {
+      "name":"SideStick3",
+      "var":"a",
+      "x":5,
+      "y":2,
+      "color":"blue",
+      "tags":"a "
+   },
+   {
+      "name":"SideStick4",
+      "var":"a",
+      "x":6,
+      "y":2,
+      "color":"blue",
+      "tags":"b "
+   },
+   {
+      "name":"DanceBeat1",
+      "var":"a",
+      "x":7,
+      "y":2,
+      "color":"yellow",
+      "tags":"c "
+   },
+   {
+      "name":"DanceBeat2",
+      "var":"a",
+      "x":8,
+      "y":2,
+      "color":"yellow",
+      "tags":"c "
+   },
+   {
+      "name":"SimpleBeat3",
+      "var":"b",
+      "x":1,
+      "y":2,
+      "color":"red",
+      "tags":"a b d"
+   },
+   {
+      "name":"SimpleBeat4",
+      "var":"b",
+      "x":2,
+      "y":2,
+      "color":"red",
+      "tags":"c b d"
+   },
+   {
+      "name":"Funk3",
+      "var":"b",
+      "x":3,
+      "y":2,
+      "color":"yellow",
+      "tags":"c "
+   },
+   {
+      "name":"Funk4",
+      "var":"b",
+      "x":4,
+      "y":2,
+      "color":"yellow",
+      "tags":"d "
+   },
+   {
+      "name":"SideStick3",
+      "var":"b",
+      "x":5,
+      "y":2,
+      "color":"blue",
+      "tags":"a "
+   },
+   {
+      "name":"SideStick4",
+      "var":"b",
+      "x":6,
+      "y":2,
+      "color":"blue",
+      "tags":"b "
+   },
+   {
+      "name":"DanceBeat1",
+      "var":"b",
+      "x":7,
+      "y":2,
+      "color":"yellow",
+      "tags":"c "
+   },
+   {
+      "name":"DanceBeat2",
+      "var":"b",
+      "x":8,
+      "y":2,
+      "color":"yellow",
+      "tags":"c "
+   },
+   {
+      "name":"Rock1",
+      "var":"a",
+      "x":1,
+      "y":3,
+      "color":"yellow",
+      "tags":"hesh bidule"
+   },
+   {
+      "name":"Rock2",
+      "var":"a",
+      "x":2,
+      "y":3,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Swing1",
+      "var":"a",
+      "x":3,
+      "y":3,
+      "color":"red",
+      "tags":"a b c"
+   },
+   {
+      "name":"Swing2",
+      "var":"a",
+      "x":4,
+      "y":3,
+      "color":"red",
+      "tags":"c a"
+   },
+   {
+      "name":"SideStick5",
+      "var":"a",
+      "x":5,
+      "y":3,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"DanceBeat3",
+      "var":"a",
+      "x":7,
+      "y":3,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"DanceBeat4",
+      "var":"a",
+      "x":8,
+      "y":3,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Rock1",
+      "var":"b",
+      "x":1,
+      "y":3,
+      "color":"yellow",
+      "tags":"hesh toto titi"
+   },
+   {
+      "name":"Rock2",
+      "var":"b",
+      "x":2,
+      "y":3,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Swing1",
+      "var":"b",
+      "x":3,
+      "y":3,
+      "color":"red",
+      "tags":"a b d"
+   },
+   {
+      "name":"Swing2",
+      "var":"b",
+      "x":4,
+      "y":3,
+      "color":"red",
+      "tags":"c b d"
+   },
+   {
+      "name":"SideStick5",
+      "var":"b",
+      "x":5,
+      "y":3,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"DanceBeat3",
+      "var":"b",
+      "x":7,
+      "y":3,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"DanceBeat4",
+      "var":"b",
+      "x":8,
+      "y":3,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Rock3",
+      "var":"a",
+      "x":1,
+      "y":4,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Rock4",
+      "var":"a",
+      "x":2,
+      "y":4,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Swing3",
+      "var":"a",
+      "x":3,
+      "y":4,
+      "color":"red",
+      "tags":"a b c"
+   },
+   {
+      "name":"Swing4",
+      "var":"a",
+      "x":4,
+      "y":4,
+      "color":"red",
+      "tags":"c a"
+   },
+   {
+      "name":"PercusBeat1",
+      "var":"a",
+      "x":5,
+      "y":4,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"PercusBeat2",
+      "var":"a",
+      "x":6,
+      "y":4,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Conga1",
+      "var":"a",
+      "x":7,
+      "y":4,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"Conga2",
+      "var":"a",
+      "x":8,
+      "y":4,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"Rock3",
+      "var":"b",
+      "x":1,
+      "y":4,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Rock4",
+      "var":"b",
+      "x":2,
+      "y":4,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Swing3",
+      "var":"b",
+      "x":3,
+      "y":4,
+      "color":"red",
+      "tags":"a b d"
+   },
+   {
+      "name":"Swing4",
+      "var":"b",
+      "x":4,
+      "y":4,
+      "color":"red",
+      "tags":"c b d"
+   },
+   {
+      "name":"PercusBeat1",
+      "var":"b",
+      "x":5,
+      "y":4,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"PercusBeat2",
+      "var":"b",
+      "x":6,
+      "y":4,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Conga1",
+      "var":"b",
+      "x":7,
+      "y":4,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"Conga2",
+      "var":"b",
+      "x":8,
+      "y":4,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"GrooveBeat1",
+      "var":"a",
+      "x":1,
+      "y":5,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"GrooveBeat2",
+      "var":"a",
+      "x":2,
+      "y":5,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"Swing5",
+      "var":"a",
+      "x":3,
+      "y":5,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"PercusBeat3",
+      "var":"a",
+      "x":5,
+      "y":5,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"PercusBeat4",
+      "var":"a",
+      "x":6,
+      "y":5,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Conga3",
+      "var":"a",
+      "x":7,
+      "y":5,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"GrooveBeat1",
+      "var":"b",
+      "x":1,
+      "y":5,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"GrooveBeat2",
+      "var":"b",
+      "x":2,
+      "y":5,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"Swing5",
+      "var":"b",
+      "x":3,
+      "y":5,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"PercusBeat3",
+      "var":"b",
+      "x":5,
+      "y":5,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"PercusBeat4",
+      "var":"b",
+      "x":6,
+      "y":5,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Conga3",
+      "var":"b",
+      "x":7,
+      "y":5,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"GrooveBeat3",
+      "var":"a",
+      "x":1,
+      "y":6,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"GrooveBeat4",
+      "var":"a",
+      "x":2,
+      "y":6,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"Shuffle1",
+      "var":"a",
+      "x":3,
+      "y":6,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Shuffle2",
+      "var":"a",
+      "x":4,
+      "y":6,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Bossa1",
+      "var":"a",
+      "x":5,
+      "y":6,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"Bossa2",
+      "var":"a",
+      "x":6,
+      "y":6,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"GrooveBeat3",
+      "var":"b",
+      "x":1,
+      "y":6,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"GrooveBeat4",
+      "var":"b",
+      "x":2,
+      "y":6,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"Shuffle1",
+      "var":"b",
+      "x":3,
+      "y":6,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Shuffle2",
+      "var":"b",
+      "x":4,
+      "y":6,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Bossa1",
+      "var":"b",
+      "x":5,
+      "y":6,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"Bossa2",
+      "var":"b",
+      "x":6,
+      "y":6,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"GrooveBeat5",
+      "var":"a",
+      "x":1,
+      "y":7,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"GrooveBeat6",
+      "var":"a",
+      "x":2,
+      "y":7,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"Shuffle3",
+      "var":"a",
+      "x":3,
+      "y":7,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Shuffle4",
+      "var":"a",
+      "x":4,
+      "y":7,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"LatinBeat1",
+      "var":"a",
+      "x":5,
+      "y":7,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"LatinBeat2",
+      "var":"a",
+      "x":6,
+      "y":7,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"GrooveBeat5",
+      "var":"b",
+      "x":1,
+      "y":7,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"GrooveBeat6",
+      "var":"b",
+      "x":2,
+      "y":7,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"Shuffle3",
+      "var":"b",
+      "x":3,
+      "y":7,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"Shuffle4",
+      "var":"b",
+      "x":4,
+      "y":7,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"LatinBeat1",
+      "var":"b",
+      "x":5,
+      "y":7,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"LatinBeat2",
+      "var":"b",
+      "x":6,
+      "y":7,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"GrooveBeat7",
+      "var":"a",
+      "x":1,
+      "y":8,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"Shuffle5",
+      "var":"a",
+      "x":3,
+      "y":8,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"LatinBeat3",
+      "var":"a",
+      "x":5,
+      "y":8,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"LatinBeat4",
+      "var":"a",
+      "x":6,
+      "y":8,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"GrooveBeat7",
+      "var":"b",
+      "x":1,
+      "y":8,
+      "color":"blue",
+      "tags":" "
+   },
+   {
+      "name":"Shuffle5",
+      "var":"b",
+      "x":3,
+      "y":8,
+      "color":"yellow",
+      "tags":" "
+   },
+   {
+      "name":"LatinBeat3",
+      "var":"b",
+      "x":5,
+      "y":8,
+      "color":"red",
+      "tags":" "
+   },
+   {
+      "name":"LatinBeat4",
+      "var":"b",
+      "x":6,
+      "y":8,
+      "color":"red",
+      "tags":" "
+   }
+]

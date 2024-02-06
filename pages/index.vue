@@ -1,29 +1,69 @@
 <script lang="ts" setup>
-import indexJson from '../data/index.json'
+import padJson from '../data/padData.json'
 
-type Song = {
-  id: string,
-  name: string,
-  artist: string,
+const filters = ref({
+  ternary: false,
+  chabada: false,
+  a: false,
+  b: false,
+  c: false,
+  d: false,
+  e: false,
+  g: false,
+})
+
+const filterClass = active => `
+  p-2 flex-auto border-2 border-white bg-none text-white uppercase text-lg font-bold
+  ${active ? 'bg-white text-black' : ''}
+`
+
+const touchClass = (color, tags) => {
+  const classes = []
+  if (color === 'red') classes.push('fill-red-400')
+  if (color === 'blue') classes.push('fill-blue-400')
+  if (color === 'yellow') classes.push('fill-yellow-400')
+  // tags: a b c d
+  let active = true
+
+  Object.entries(filters.value).forEach(([key, val]) => {
+    if (val && tags.indexOf(key) === -1) {
+      console.log(key, val);
+      active = false
+    }
+  })
+  if (!active) classes.push('opacity-30')
+  return classes
 }
 
-const songs: Song[] = indexJson
 </script>
 
 <template>
-  <div class="px-4 pb-10">
-    <h1 class="text-white text-3xl md:text-4xl text-center py-16 font-bold">Wot da Funk : <span class="whitespace-nowrap">Jam Session Funk !</span></h1>
-    <ul class="grid sm:grid-cols-2 gap-6 md:grid-cols-3 xl:grid-cols-4">
-      <li
-        v-for="(song, index) in songs.sort((a, b) => a.name > b.name ? 1 : -1)"
-        :key="index"
-        class="bg-white/10 rounded-2xl p-5"
-      >
-        <a :href="`/songs/${song.id}`" class="flex justify-between flex-col h-24 text-white">
-          <span class="block text-xl font-bold drop-shadow-lg">{{ song.name }}</span>
-          <span class="block">{{ song.artist }}</span>
-        </a>
-      </li>
-    </ul>
+  <div class="h-screen flex justify-center items-center">
+    <div class="flex gap-4">
+      <div class="grid grid-rows-8 grid-cols-8 bg-black w-[600px] p-4">
+        <div
+          v-for="(touch, index) in padJson"
+          :style="{ gridColumn: touch.x, gridRow: touch.y }"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 10 10"
+            :class="touchClass(touch.color, touch.tags)"
+          >
+            <polygon v-if="touch.var === 'a'" points="0.5,0.5 9,0.5 0.5,9" />
+            <polygon v-else points="9.5,9.5 9.5,1 1,9.5" />
+          </svg>
+        </div>
+      </div>
+      <div class="flex flex-col gap-1 w-[200px]">
+        <button
+          v-for="(filter, index) in Object.keys(filters)"
+          :key="index" @click="filters[filter] = !filters[filter]"
+          :class="filterClass(filters[filter])"
+        >
+          {{ filter }}
+        </button>
+      </div>
+    </div>
   </div>
 </template>
