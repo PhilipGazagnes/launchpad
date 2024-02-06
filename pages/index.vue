@@ -13,8 +13,8 @@ const filters = ref({
 })
 
 const filterClass = active => `
-  p-2 flex-auto border-2 border-white bg-none text-white uppercase text-lg font-bold
-  ${active ? 'bg-white text-black' : ''}
+  p-2 flex-auto border-2 border-white bg-none uppercase text-lg font-bold
+  ${active ? 'bg-white text-black' : 'text-white'}
 `
 
 const touchClass = (color, tags) => {
